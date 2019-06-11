@@ -1,0 +1,37 @@
+# file options
+
+--symlinks ignore
+
+--exclude Package.swift
+
+# format options
+
+--allman           false
+--self             insert
+--elseposition     same-line
+--ranges           nospace
+--semicolons       inline
+--importgrouping   testable-bottom
+--trimwhitespace   nonblank-lines
+--commas           always
+--indent           4
+--empty            tuple
+--header           strip
+--hexliteralcase   lowercase
+--indentcase       false
+--operatorfunc     spaced
+--patternlet       inline
+--wraparguments    before-first
+--wrapcollections  before-first
+--stripunusedargs  closure-only
+--trimwhitespace   always
+
+# rules
+
+--disable andOperator
+--disable emptyBraces
+--disable redundantLetError
+--disable redundantNilInit
+--disable redundantLet
+--disable redundantSelf
+--disable redundantBackticks

@@ -1,3 +1,3 @@
-struct Symbolic {
-    var text = "Hello, World!"
-}
+import Foundation
+
+public enum Symbolic {}

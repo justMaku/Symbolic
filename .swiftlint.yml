@@ -1,0 +1,10 @@
+disabled_rules:
+  - trailing_comma
+  - empty_enum_arguments
+  - void_return
+  - redundant_optional_initialization
+  - nesting
+  - redundant_discardable_let
+
+excluded: 
+  - "VehicleAccessKitTests"
